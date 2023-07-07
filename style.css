@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    background-color: rgb(34, 34, 34);
+    color: #fff;
+}
+.header ,ul{
+    width: max-content;
+    /* margin: 0 auto; */
+    background-color: #fff;
+    margin-top: 10px;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.header,ul,li,a{
+    gap: 30px;
+    text-decoration: none;
+    list-style: none;
+}
